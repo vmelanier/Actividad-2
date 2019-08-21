@@ -1,0 +1,11 @@
+1. Agregar un archivo .gitignore que excluya los archivos con terminación .class
+
+2. Realizar un commit que incluya el archivo .gitignore
+
+3. Realizar un commit con los cambios requeridos en el archivo TODO.txt
+
+4. Crear una cuenta en Github
+
+5. Crear un nuevo repositorio vacío en Github
+
+6. Publicar los cambios en el repositorio creado
