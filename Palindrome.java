@@ -1,8 +1,14 @@
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 public class Palindrome
 {
 
-    public static boolean isPalindrome(String word)
+    public static void main(String[] args)
     {
+        String message = null;
+
         boolean is_palindrome = false;
 
         StringBuilder string_builder = new StringBuilder(word);
@@ -19,9 +25,9 @@ public class Palindrome
         String word = "palabra";
 
         if (isPalindrome(word)) {
-            System.out.println(1);
+            System.out.println(Es palindromo);
         } else {
-            System.out.println(0);
+            System.out.println(No es palindromo);
         }
 
     }
